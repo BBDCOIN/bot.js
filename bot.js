@@ -11,7 +11,7 @@ const { Telegraf, Markup } = require('telegraf');
 const Database = require('better-sqlite3');
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const BOT_TOKEN = 7797660415:AAETfQG3WESTwny1Xr1lfHSBOXNM-0EyUXQ || 'YOUR_BOT_TOKEN_HERE';
+const BOT_TOKEN = '7797660415:AAETfQG3WESTwny1Xr1lfHSBOXNM-0EyUXQ' || 'YOUR_BOT_TOKEN_HERE';
 const MINI_APP_URL = process.env.MINI_APP_URL || 'https://your-domain.com'; // host your index.html here
 const MINE_RATE = 10;          // coins per hour
 const SPIN_COST = 50;          // coins per spin
